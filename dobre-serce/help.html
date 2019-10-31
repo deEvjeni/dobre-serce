@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" href="css.css" type="text/css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="js.js" async></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="backgroundPageHelp"></div>
+    <nav>
+        <div class="logo">
+            <a href="html.html"><img src="логоWhite.svg"></a>                
+        </div>
+        <div class="language">
+            <ul class="hrlist">
+                <li><a class="" href=#>УКР</a></li>
+                <li><a class="passive" href=#>РУС</a></li>
+                <li><a class="passive" href=#>EN</a></li>
+            </ul>
+        </div>
+        <div class = "navigation">
+            <ul class = "hrlist">
+                <li><a class="ahov" href="projects.html">Проекти</a></li>
+                <li><a class="ahov" href="archieve.html" >Архів</a></li>
+                <li><a class="ahov" href="contacts.html">Контакти</a></li>
+                <li><a class="activeHelp" href="help.html">Термінова допомога</a></li>
+            </ul>
+        </div>
+        <div class="searchIcon">
+            <img id="searchButton" src = "search.svg">
+        </div>
+        <div class="login">
+            <a class="ahov" href=#>Вхід/Зареєструватися</a>
+        </div>
+    </nav>
+    <div id="searchModal" class="modal">
+        <div class="modalContent" id="contentSearch">
+            <span class="close" id="closeSearch">&times;</span>
+            <input placeholder="Пошук" type="text" name="search" id="searchInput">
+        </div>
+        <div class="modalContent" id="contentFind">
+            <div class="contentText">
+                <div class="projArch">
+                    <p>Проекти</p>
+                    <p>Архів</p>
+                </div>
+                <div class="textProjArch">
+                    <div class="projKids">
+                        <div class="text1">
+                            <p class="projArchHeader">Діти</p>
+                            <p class="projArchSub">Для операції на сердце маленькому хлопчику, необхідно зібрати гроші на ліки</p>
+                        </div>
+                        <div class="text2">
+                            <p>Збираємо гроші на лікування  п'ятирічного Василя, який  став жертвою ДТП</p>
+                        </div>
+                    </div>
+                    <div class="projWar">
+                        <p class="projArchHeader">Війна</p>
+                        <p class="projArchSub">Необхідно зібрати лікидля поранених бійців із зони АТО</p>
+                    </div>
+                    <div class="archKids">
+                        <p class="projArchHeader">Діти</p>
+                        <p class="projArchSub">Необхідно купити ліки для дитячого будинку в місті Київ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="contentProjectsList">
+        <header class="headerProjectsList">
+            <p class="projectNames passive">Війна</p>
+            <p class="projectNames passive">Екологія</p>
+            <p class="projectNames">Діти<sup id="emergency">3</sup></p>
+            <p class="projectNames passive">Освіта</p>
+        </header>
+
+        <div class="listofhelp">
+            <p>Види допомоги <a href=#><img src="shapeDown.svg"></a></p>
+        </div>
+
+        <div class="projectMenu">
+            <img src="170846full.svg">
+            <div class="projectText">
+                <div class="iconHelp" id="iconEmergency">
+                    <a href=#><img src="зробитиGrey.svg"></a>
+                    <a href=#><img src="финансовоGrey.svg"></a>
+                </div>
+                <p class="date">04.05.2018</p>
+                <p class="projectHeader">Операція дитині, яка постраждала в зоні АТО</p>
+                <p class="projectInfo">Необхідно терміново зробити операцію фбо зібрати 40 000 грн Василю, який був поранений в зоні АТО</p>
+                <p class="money">Зібрано <span>18 000</span> з <span>40 000</span> UAH</p>
+            </div>
+            <img src="restavraciya-otop.svg">
+            <div class="projectText">
+                <p class="date">04.05.2017</p>
+                <p class="projectHeader">Ремонт опалення у дитячому будинку</p>
+            </div>
+            <img src="lekarstva.svg">
+            <div class="projectText">
+                <p class="date">03.05.2017</p>
+                <p class="projectHeader">Терміново необхідно закупити до лікарень дитячий "рідкісний препарат" від укусів кліщів</p>
+            </div>
+        </div>
+    </main>
+        <div class="chat">
+            <img src="chat (2).svg">
+        </div>
+</body>
+</html>

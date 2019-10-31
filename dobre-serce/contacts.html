@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" href="css.css" type="text/css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="js.js" async></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="backgroundPages2-4"></div>
+    <nav>
+        <div class="logo">
+            <a href="html.html"><img src="serce.svg"></a>                
+        </div>
+        <div class="language">
+            <ul class="hrlist">
+                <li><a class="" href=#>УКР</a></li>
+                <li><a class="passive" href=#>РУС</a></li>
+                <li><a class="passive" href=#>EN</a></li>
+            </ul>
+        </div>
+        <div class = "navigation">
+            <ul class = "hrlist">
+                <li><a class="ahov" href="projects.html">Проекти</a></li>
+                <li><a class="ahov" href="archieve.html" >Архів</a></li>
+                <li><a class="ahov active" href=#>Контакти</a></li>
+                <li><a id="help" href="help.html">Термінова допомога</a></li>
+            </ul>
+        </div>
+        <div class="searchIcon">
+            <img id="searchButton" src = "search.svg">
+        </div>
+        <div class="login">
+            <a class="ahov" href=#>Вхід/Зареєструватися</a>
+        </div>
+    </nav>
+    <div id="searchModal" class="modal">
+        <div class="modalContent" id="contentSearch">
+            <span class="close" id="closeSearch">&times;</span>
+            <input placeholder="Пошук" type="text" name="search" id="searchInput">
+        </div>
+        <div class="modalContent" id="contentFind">
+            <div class="contentText">
+                <div class="projArch">
+                    <p>Проекти</p>
+                    <p>Архів</p>
+                </div>
+                <div class="textProjArch">
+                    <div class="projKids">
+                        <div class="text1">
+                            <p class="projArchHeader">Діти</p>
+                            <p class="projArchSub">Для операції на сердце маленькому хлопчику, необхідно зібрати гроші на ліки</p>
+                        </div>
+                        <div class="text2">
+                            <p>Збираємо гроші на лікування  п'ятирічного Василя, який  став жертвою ДТП</p>
+                        </div>
+                    </div>
+                    <div class="projWar">
+                        <p class="projArchHeader">Війна</p>
+                        <p class="projArchSub">Необхідно зібрати лікидля поранених бійців із зони АТО</p>
+                    </div>
+                    <div class="archKids">
+                        <p class="projArchHeader">Діти</p>
+                        <p class="projArchSub">Необхідно купити ліки для дитячого будинку в місті Київ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="contentContacts">
+        <div class="contactInfo">
+            <p>+38 (077) 777 77 77</p>
+            <p>help@kindheart.ua</p>
+        </div>
+        <div class="consultForm">
+            <p>Заповніть своє ім'я і контактні дані, і Вам нададуть консультацію по телефону</p>
+            <form>
+                <input type="text" name="name" placeholder="Ім'я">
+                <input type="text" name="phone" placeholder="Телефон">
+                <input type="submit" value="Відправити">
+            </form>
+        </div>
+    </main>
+
+    <footer class="footerPage1">
+        <div class="chat">
+            <img id="chatimg" src="chat.svg">
+        </div> 
+        <div class="socialContacts">
+            <div class="socialIcon">
+                <a href=#><img src="twit.svg"></a>
+                <a href=#><img src="faceb.svg"></a>
+                <a href=#><img src="vk.svg"></a>
+            </div>
+        </div>
+    </footer>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66" height="66" viewBox="0 0 66 66">
+  <defs>
+    <filter id="Oval_4" x="0" y="0" width="66" height="66" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Shape" x="10.5" y="11.75" width="46.5" height="46.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Чат" transform="translate(3 1)">
+    <g transform="matrix(1, 0, 0, 1, -3, -1)" filter="url(#Oval_4)">
+      <circle id="Oval_4-2" data-name="Oval 4" cx="30" cy="30" r="30" transform="translate(3 1)" fill="#9d5e9b"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -3, -1)" filter="url(#Shape)">
+      <path id="Shape-2" data-name="Shape" d="M34.439,0H3.061A3.213,3.213,0,0,0,0,3.061V25.255a2.961,2.961,0,0,0,3.061,3.061H4.592V37.5l9.949-9.184h19.9A2.961,2.961,0,0,0,37.5,25.255V3.061A3.213,3.213,0,0,0,34.439,0Z" transform="translate(15 15.25)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

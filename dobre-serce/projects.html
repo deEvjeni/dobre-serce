@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" href="css.css" type="text/css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="js.js" async></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="backgroundPages2-4"></div>
+    <nav>
+        <div class="logo">
+            <a href="html.html"><img src="serce.svg"></a>                
+        </div>
+        <div class="language">
+            <ul class="hrlist">
+                <li><a class="" href=#>УКР</a></li>
+                <li><a class="passive" href=#>РУС</a></li>
+                <li><a class="passive" href=#>EN</a></li>
+            </ul>
+        </div>
+        <div class = "navigation">
+            <ul class = "hrlist">
+                <li><a class="ahov active" href=#>Проекти</a></li>
+                <li><a class="ahov" href="archieve.html" >Архів</a></li>
+                <li><a class="ahov" href="contacts.html">Контакти</a></li>
+                <li><a id="help" href="help.html">Термінова допомога</a></li>
+            </ul>
+        </div>
+        <div class="searchIcon">
+            <img id="searchButton" src = "search.svg">
+        </div>
+        <div class="login">
+            <a class="ahov" href=#>Вхід/Зареєструватися</a>
+        </div>
+    </nav>
+    <div id="searchModal" class="modal">
+        <div class="modalContent" id="contentSearch">
+            <span class="close" id="closeSearch">&times;</span>
+            <input placeholder="Пошук" type="text" name="search" id="searchInput">
+        </div>
+        <div class="modalContent" id="contentFind">
+            <div class="contentText">
+                <div class="projArch">
+                    <p>Проекти</p>
+                    <p>Архів</p>
+                </div>
+                <div class="textProjArch">
+                    <div class="projKids">
+                        <div class="text1">
+                            <p class="projArchHeader">Діти</p>
+                            <p class="projArchSub">Для операції на сердце маленькому хлопчику, необхідно зібрати гроші на ліки</p>
+                        </div>
+                        <div class="text2">
+                            <p>Збираємо гроші на лікування  п'ятирічного Василя, який  став жертвою ДТП</p>
+                        </div>
+                    </div>
+                    <div class="projWar">
+                        <p class="projArchHeader">Війна</p>
+                        <p class="projArchSub">Необхідно зібрати лікидля поранених бійців із зони АТО</p>
+                    </div>
+                    <div class="archKids">
+                        <p class="projArchHeader">Діти</p>
+                        <p class="projArchSub">Необхідно купити ліки для дитячого будинку в місті Київ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="contentProjectsList">
+        <header class="headerProjectsList">
+            <h5 class="projectNames passive">Війна</h5>
+            <h5 class="projectNames passive">Екологія</h5>
+            <h5 class="projectNames">Діти<sup>24</sup></h5>
+            <h5 class="projectNames passive">Освіта</h5>
+        </header>
+
+        <div class="listofhelp">
+            <p>Види допомоги <a href=#><img src="str.svg"></a></p>
+        </div>
+
+        <div class="projectMenu">
+            <img src="kids.svg">
+            <div class="projectText">
+                <div class="iconHelp">
+                    <a href=#><img src="зробити.svg"></a>
+                    <a href=#><img src="финансово.svg"></a>
+                    <a href=#><img src="материально.svg"></a>
+                    <a href=#><img src="волонтерство.svg"></a>
+                </div>
+                <p class="date" id="date1">07.05.2017</p>
+                <p class="projectHeader" id="header1">Необхідна допомога дитячому будинку.</p>
+                <p class="projectInfo">Перебуваючи у сиротинцях ці діти мають різного роду матеріальні та нематеріальні потреби, якими зазвичай ніхто не займається. 
+                    Ті, хто має займатися утриманням дитячих будинків, 
+                    опікою над дітьми часто забувають про свій обов'язок або ж отримують недостатнє фінансування від держави. 
+                    Тому вся надія цих діточок покладається на небайдужих людей, волонтерів, благодійні фонди.</p>
+                <p class="helpmoney">Зібрано <span>10 000</span> з <span>25 000</span> UAH</p>
+            </div>
+            <img src="170846.svg">
+            <div class="projectText">
+                <p class="date">04.05.2017</p>
+                <p class="projectHeader">Операція дитині, яка постраждала в зоні АТО</p>
+            </div>
+            <img src="image004.svg">
+            <div class="projectText">
+                <p class="date">03.05.2017</p>
+                <p class="projectHeader">Освітній загальний курс з основ WEB технологій для школярів</p>
+            </div>
+            <img src="23234.svg">
+            <div class="projectText">
+                <p class="date">03.05.2017</p>
+                <p class="projectHeader">Будування дитячого майданчику у місті Київ</p>
+            </div>
+            <img src="lager5.svg">
+            <div class="projectText">
+                <p class="date">03.05.2017</p>
+            </div>
+        </div>
+    </main>
+        <div class="chat">
+            <img src="chat.svg">
+        </div>
+</body>
+</html>
